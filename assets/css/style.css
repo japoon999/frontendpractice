@@ -249,3 +249,40 @@ header {
     opacity: 100%;
     color: white;
 }
+
+
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+
+}
+
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+
+}
+
+
+
+
+.footer-span {
+    color: white;
+    padding-top: 45px;
+}
+
+
+.nav-link a {
+    color: white;
+    margin: 10px;
+}
+
+.nav-link a :hover{
+    text-decoration: underline;
+}
+

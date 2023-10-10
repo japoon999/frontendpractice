@@ -7,8 +7,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border-bottom: 2px solid black; */
-    padding: 0px 100px
+    padding: 0px 100px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    position: fixed;
 }
 
 .head-box h1 a {
@@ -51,9 +53,8 @@ header {
 
 .conteiner {
     width: 100%;
-    height: 680px;
+    height: 120vh;
     background-color: antiquewhite;
-    border-top: 2px solid black;
     border-bottom: 2px solid black;
 
 }
@@ -116,8 +117,135 @@ header {
 .btn button:hover {
     background-color: black;
     transition: 1s;
+
 }
 
 .btn button :hover {
+    color: white;
+}
+
+
+.box {
+    width: 100%;
+    height: 180vh;
+
+
+}
+
+
+.col {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+
+
+}
+
+.col h2 {
+    width: 650px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.col span {
+    width: 450px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+
+.bl {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 29px;
+    padding-bottom: 200px;
+
+
+
+
+}
+
+
+
+.bl div {
+    width: 450px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+    padding: 20px;
+    margin: 10px;
+
+
+
+}
+
+
+
+.bl img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.bt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+
+
+
+}
+
+
+.bt h2 {
+    width: 500px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.bt button {
+    width: 110px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: white;
+    margin: 50px;
+
+
+}
+
+
+.bt button a {
+    color: black;
+    font-weight: 900;
+    opacity: 70%;
+
+}
+
+
+.bt button:hover {
+
+    background-color: black;
+
+}
+
+.bt button a:hover {
+    opacity: 100%;
     color: white;
 }

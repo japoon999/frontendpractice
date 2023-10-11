@@ -122,23 +122,21 @@ textarea {
     background-color: white;
     margin-top: 20px;
     font-weight: 900;
-   
-
-}
-
-.btn button a{
     color: black;
+    cursor: pointer;
+    
+
 }
+
 
 
 .btn button:hover{
     background-color: black;
+    color: white;
     
 }
 
-.btn button a:hover{
-    color: white;
-}
+
 
 
 

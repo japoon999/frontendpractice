@@ -1,0 +1,50 @@
+@import url(reset.css);
+
+
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    position: fixed;
+}
+
+.head-box h1 a {
+    color: black;
+    font-size: 30px;
+    opacity: 70%;
+}
+
+.head-box h1 a:hover {
+    opacity: 100%;
+    text-decoration: underline;
+
+}
+
+.nav-bar ul li a:hover {
+    opacity: 100%;
+    text-decoration: underline;
+
+}
+
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    margin-left: 1rem;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.nav-bar ul li:last-child a:after {
+    content: '\2197';
+}

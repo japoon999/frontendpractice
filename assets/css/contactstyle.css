@@ -48,3 +48,132 @@ header {
 .nav-bar ul li:last-child a:after {
     content: '\2197';
 }
+
+
+
+
+
+
+
+.conteiner {
+    width: 100%;
+    height: 170vh;
+    background-color: coral;
+
+}
+
+
+.box {
+    width: 100%;
+    height: 900px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.box h2 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
+.box p {
+    width: 400px;
+    margin-top: 40px;
+}
+
+
+
+form {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    line-height: 3;
+
+
+}
+
+
+
+
+.filed {
+    height: 50px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+
+textarea {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+
+.btn button {
+    width: 140px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 20px;
+    font-weight: 900;
+   
+
+}
+
+.btn button a{
+    color: black;
+}
+
+
+.btn button:hover{
+    background-color: black;
+    
+}
+
+.btn button a:hover{
+    color: white;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+
+}
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+
+}
+
+
+
+
+.footer-span {
+    color: white;
+    padding-top: 45px;
+}
+
+
+.nav-link a {
+    color: white;
+    margin: 10px;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+}

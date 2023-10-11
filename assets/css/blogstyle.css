@@ -1,0 +1,213 @@
+@import url(reset.css);
+
+
+
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    position: fixed;
+}
+
+.head-box h1 a {
+    color: black;
+    font-size: 30px;
+    opacity: 70%;
+}
+
+.head-box h1 a:hover {
+    opacity: 100%;
+    text-decoration: underline;
+
+}
+
+.nav-bar ul li a:hover {
+    opacity: 100%;
+    text-decoration: underline;
+
+}
+
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    margin-left: 1rem;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.nav-bar ul li:last-child a:after {
+    content: '\2197';
+}
+
+
+section {
+    width: 100%;
+    height: 140vh;
+    background-color: whitesmoke;
+}
+
+.conteiner {
+
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.box {
+    width: 600px;
+    height: 900px;
+    text-align: center;
+
+}
+
+
+.box h2 {
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+
+.box p {
+    margin-top: 30px;
+}
+
+
+
+.block {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+
+.bl {
+    width: 70%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 15px 40px 0px 40px;
+
+}
+
+
+
+
+.bl p {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(51, 51, 51);
+}
+
+
+
+.right {
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    margin-left: 210px;
+    font-size: 13px;
+
+}
+
+.left {
+
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    font-size: 13px;
+
+
+}
+
+
+
+.block .bl:hover {
+    opacity: 40%;
+    background-color: darkgray;
+
+}
+
+.block .left:hover{
+background-color:darkgray ;
+
+}
+
+.block .right:hover{
+    background-color: darkgray;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+
+}
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+
+}
+
+
+
+
+.footer-span {
+    color: white;
+    padding-top: 45px;
+}
+
+
+.nav-link a {
+    color: white;
+    margin: 10px;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+}
+
+
+
